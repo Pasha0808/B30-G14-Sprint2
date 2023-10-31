@@ -1,4 +1,3 @@
-
 Feature:Users should be able to  access to the Oroinc
   Documentation page.
 
@@ -25,12 +24,6 @@ Feature:Users should be able to  access to the Oroinc
 
           When user clicks then question icon
           Then users is able to access to the Oroinc Documentation page
-
-
-
-
-
-
 
 
 
