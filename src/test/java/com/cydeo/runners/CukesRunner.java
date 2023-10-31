@@ -1,5 +1,6 @@
 package com.cydeo.runners;
 
+
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
@@ -11,10 +12,10 @@ import org.junit.runner.RunWith;
                 "rerun:target/rerun.txt",
                 "me.jvt.cucumber.report.PrettyReports:target/cucumber"
         },
-        features = "src/test/resources/features",
+        features = "src/test/resources/B30G14_feature_file",
         glue = "com/cydeo/step_definitions",
-        dryRun = false,
-        tags = "@wip",
+        dryRun = true,
+        tags = "",
         publish = true //generating a report with public link
 )
 public class CukesRunner {}
