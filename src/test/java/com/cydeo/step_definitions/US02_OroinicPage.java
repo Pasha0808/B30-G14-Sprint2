@@ -5,7 +5,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class US02_OroinicPage {
-    @Given("user is alredy on the login page")
+    @Given("user is already on the login page")
     public void user_is_alredy_on_the_login_page() {
         // Write code here that turns the phrase above into concrete actions
         throw new io.cucumber.java.PendingException();
