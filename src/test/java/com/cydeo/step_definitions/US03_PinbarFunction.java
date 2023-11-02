@@ -1,10 +1,28 @@
 package com.cydeo.step_definitions;
 
+import com.cydeo.pagesB30G14.PinbarPage;
+import com.cydeo.pagesB30G14.R_VytrackLoginPage;
 import io.cucumber.java.en.Then;
 
 public class US03_PinbarFunction {
+    R_VytrackLoginPage vytrackLoginPage = new R_VytrackLoginPage();
+    PinbarPage pinbarPage = new PinbarPage();
+
+    /*
+    public static void verifyElementDisplayed(WebElement element) {
+        try {
+            Assert.assertTrue("Element not visible: " + element, element.isDisplayed());
+        } catch (NoSuchElementException e) {
+            e.printStackTrace();
+            Assert.fail("Element not found: " + element);
+
+        }
+    }
+     */
     @Then("user should click on Learn how to use this space")
     public void user_should_click_on_learn_how_to_use_this_space() {
+        pinbarPage.ThisSpaceLink.click();
+
 
     }
     @Then("user should see an image on the page")
