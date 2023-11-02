@@ -10,7 +10,8 @@ import org.junit.runner.RunWith;
         plugin = {
                 "html:target/cucumber-reports.html",
                 "rerun:target/rerun.txt",
-                "me.jvt.cucumber.report.PrettyReports:target/cucumber"
+                "me.jvt.cucumber.report.PrettyReports:target/cucumber",
+                "json:target/cucumber.json"
         },
         features = "src/test/resources/B30G14_feature_file",
         glue = "com/cydeo/step_definitions",
