@@ -10,14 +10,6 @@ public class US7Page_zahide {
         PageFactory.initElements(Driver.getDriver(), this);
 
 }
-    @FindBy(id = "prependedInput")
-    public WebElement username;
-
-    @FindBy(id = "prependedInput2")
-    public WebElement password;
-
-    @FindBy(id = "_submit")
-    public WebElement loginBtn;
 
     @FindBy(xpath = "(//span[@class='title title-level-1'])[2]")
     public WebElement fleetDropDownBtn;

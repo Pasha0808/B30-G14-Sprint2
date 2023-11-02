@@ -10,8 +10,8 @@ Feature:As a user, I should be able to select any vehicle from the Vehicle page(
   Scenario: Sales Manager,Store Manager
     Then all checkboxes should be unchecked
 
-  Scenario: Store Manager,Store Manager
-    Then all checkboxes should be checked
+Scenario: Store Manager,Store Manager
+  Then first checkbox button should be checked all checkboxes
 
   Scenario: Store Manager,Store Manager
-    Then any checkbox should be checked
+   Then any checkbox button  should be clickable

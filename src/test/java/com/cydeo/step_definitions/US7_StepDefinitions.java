@@ -5,47 +5,27 @@ import io.cucumber.java.en.Then;
 
 public class US7_StepDefinitions {
 
-
     @Given("user is go to login page")
     public void user_is_go_to_login_page() {
 
     }
-    @Then("user enter username and password")
-    public void user_enter_username_and_password() {
+    @Given("the user logged in as {string}")
+    public void the_user_logged_in_as(String string) {
 
     }
-    @Then("user click login button")
-    public void user_click_login_button() {
+    @Given("user hover over Fleet button")
+    public void user_hover_over_fleet_button() {
 
     }
-    @Then("user sees home page successfully")
-    public void user_sees_home_page_successfully() {
+    @Given("user clicks Vehicles button")
+    public void user_clicks_vehicles_button() {
 
     }
-    @Then("user {string} hover over the fleet module")
-    public void user_hover_over_the_fleet_module(String string) {
+    @Then("all checkboxes should be unchecked")
+    public void all_checkboxes_should_be_unchecked() {
 
     }
-    @Then("user {string} click the Vehicle module")
-    public void user_click_the_vehicle_module(String string) {
 
-    }
-    @Then("user {string} go to Vehicle page successfully")
-    public void user_go_to_vehicle_page_successfully(String string) {
-
-    }
-    @Then("user {string} check the all cars button already not selected")
-    public void user_check_the_all_cars_button_already_not_selected(String string) {
-
-    }
-    @Then("user {string} can  checks the first checkbox to check all the cars")
-    public void userCanChecksTheFirstCheckboxToCheckAllTheCars(String arg0) {
-
-    }
-    @Then("user {string} select any car checkbox button")
-    public void user_select_any_car_checkbox_button(String string) {
-
-    }
 
 
 
