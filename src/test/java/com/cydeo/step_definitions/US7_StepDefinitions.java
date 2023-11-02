@@ -38,12 +38,12 @@ public class US7_StepDefinitions {
     public void user_check_the_all_cars_button_already_not_selected(String string) {
 
     }
-    @Then("user {string} select  the all cars checkbox button can be able to select")
-    public void user_select_the_all_cars_checkbox_button_can_be_able_to_select(String string) {
+    @Then("user {string} can  checks the first checkbox to check all the cars")
+    public void userCanChecksTheFirstCheckboxToCheckAllTheCars(String arg0) {
 
     }
-    @Then("user {string} select any car checekbox buttn")
-    public void user_select_any_car_checekbox_buttn(String string) {
+    @Then("user {string} select any car checkbox button")
+    public void user_select_any_car_checkbox_button(String string) {
 
     }
 
