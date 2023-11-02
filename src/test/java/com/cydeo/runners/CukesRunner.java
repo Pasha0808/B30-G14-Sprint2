@@ -14,7 +14,7 @@ import org.junit.runner.RunWith;
         },
         features = "src/test/resources/B30G14_feature_file",
         glue = "com/cydeo/step_definitions",
-        dryRun = true,
+        dryRun = false,
         tags = "@B30G14-209",
         publish = true //generating a report with public link
 )
