@@ -7,7 +7,7 @@ Feature: Pinbar functionality
 		Given user is on the login page
 		
 
-	@B30G14-208
+	@B30G14-208 #Pass
 	Scenario: US3AC2: Store manager user should see an image on the page. 
 		When user enters the store manager information
 		Then user should be able to login

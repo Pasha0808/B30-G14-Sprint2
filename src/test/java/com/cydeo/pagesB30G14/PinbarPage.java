@@ -10,7 +10,7 @@ public class PinbarPage {
         PageFactory.initElements(Driver.getDriver(),this);
     }
 
-    @FindBy(xpath = "//a[text()='Learn how to use this space']" )
+    @FindBy(xpath = "//div[@class=\"list-bar\"]/div/a[text()='Learn how to use this space']" )
     public WebElement ThisSpaceLink;
 
     @FindBy(xpath = "//img[contains(@src,'/bundles/oronavigation/images/pinbar')]")
@@ -23,7 +23,7 @@ public class PinbarPage {
     public WebElement LongText;
 
 
-//linkText("Learn how to use this space")
+
 
 
 
