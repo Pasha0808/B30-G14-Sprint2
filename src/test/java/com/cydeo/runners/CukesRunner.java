@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/B30G14_feature_file",
         glue = "com/cydeo/step_definitions",
         dryRun = false,
-        tags = "@tag",
+        tags = "@B30G14-225",
         publish = true //generating a report with public link
 )
 public class CukesRunner {}
