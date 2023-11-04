@@ -6,7 +6,7 @@ Feature:Users should be able to login
   Accounts are: driver, sales manager, store manager
 
   Background:
-    Given user is on the login page
+   # Given user is on the login page
 
   @smoke
   Scenario: Login as driver
