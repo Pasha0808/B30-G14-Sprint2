@@ -29,15 +29,13 @@ public class US01_Main_Modules {
     @Then("user should be able to see the following modules:")
     public void user_should_be_able_to_see_the_following_modules(List<String> expectedModules) {
         BrowserUtils.sleep(2);
-        List <String> actualModules = new ArrayList<>();
+        List<String> actualModules = new ArrayList<>();
 
-        for (WebElement eachModule :datatablePage.allTopModules){
+        for (WebElement eachModule : datatablePage.allTopModules) {
             actualModules.add(eachModule.getText());
         }
-        Assert.assertEquals(expectedModules,actualModules);
+        Assert.assertEquals(expectedModules, actualModules);
     }
-
-
 
 
     @When("user enter Driver information")
